@@ -1,0 +1,18 @@
+{
+  "name": "pi-python-uv-shim",
+  "version": "1.0.0",
+  "description": "Pi extension that forces python/python3 calls through uv and blocks pip/venv/py_compile module invocations",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "uv",
+    "python"
+  ],
+  "license": "MIT",
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  }
+}
